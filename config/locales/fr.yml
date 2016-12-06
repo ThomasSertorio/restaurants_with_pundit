@@ -1,5 +1,5 @@
 ---
-en:
+fr:
   activerecord:
     attributes:
       restaurant:
@@ -8,20 +8,17 @@ en:
       restaurant: Restaurante
   app_title: La fourchette
   disclaimer_section:
-    paragraph: This is a beta version, use it at your own risk
+    paragraph: Version en dév
     section_title: Disclaimer
   hello: Hello world
-  intro: Welcome to the <em>best</em> listing app for restaurants
+  intro: Bienvenue sur ce fabvuleux de listing
   restaurants:
     form:
       submit: Añadir un restaurante
     index:
-      title: The restaurants
+      title: Les restaurants
     show:
-      reviews:
-        one: The first very review on %{name}
-        other: "%{name}'s reviews"
-        zero: Be the first to review %{name}
+      reviews: Les commentaires sur %{name}
   shared:
     navbar:
       profile: Profile

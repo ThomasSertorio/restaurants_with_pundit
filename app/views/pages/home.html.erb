@@ -1,2 +1,6 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+<h1><%= I18n.translate('app_title') %></h1>
+<p><%= t('intro') %></p>
+<div id="disclaimer">
+  <h2><%= t('disclaimer_section.section_title') %></h2>
+  <p><%= t('disclaimer_section.paragraph') %></p>
+</div>

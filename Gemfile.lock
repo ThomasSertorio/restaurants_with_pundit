@@ -108,6 +108,8 @@ GEM
     pry-rails (0.3.4)
       pry (>= 0.9.10)
     puma (3.6.2)
+    pundit (1.1.0)
+      activesupport (>= 3.0.0)
     rack (2.0.1)
     rack-test (0.6.3)
       rack (>= 1.0)
@@ -128,6 +130,9 @@ GEM
       nokogiri (~> 1.6.0)
     rails-html-sanitizer (1.0.3)
       loofah (~> 2.0)
+    rails-i18n (5.0.1)
+      i18n (~> 0.7)
+      railties (~> 5.0)
     railties (5.0.0.1)
       actionpack (= 5.0.0.1)
       activesupport (= 5.0.0.1)
@@ -195,7 +200,9 @@ DEPENDENCIES
   pry-byebug
   pry-rails
   puma
+  pundit
   rails (= 5.0.0.1)
+  rails-i18n (~> 5.0.0)
   redis
   sass-rails
   simple_form

@@ -1,17 +1,17 @@
 ---
-en:
+es:
   activerecord:
     attributes:
       restaurant:
         name: Nombre
     models:
       restaurant: Restaurante
-  app_title: La fourchette
+  app_title: El tenedor
   disclaimer_section:
-    paragraph: This is a beta version, use it at your own risk
+    paragraph: beta verfion
     section_title: Disclaimer
   hello: Hello world
-  intro: Welcome to the <em>best</em> listing app for restaurants
+  intro: Bienvenido en este sitio web
   restaurants:
     form:
       submit: Añadir un restaurante
